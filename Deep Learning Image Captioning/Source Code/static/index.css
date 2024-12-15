@@ -1,0 +1,346 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(68, 75, 170, 0.5);
+    font-size: 20px;
+}
+
+nav img {
+    height: 50px;
+    width: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+#headline {
+    width: 100%;
+    overflow: hidden;
+    cursor:default;
+}
+marquee{
+        font-family: "Akaya Telivigala", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+#brand-item h1{
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+
+}
+#brand-item h2{
+    font-family: "Allan", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}
+
+#brand {
+    display: flex;
+    align-items: center;
+    margin: 200px 0px 230px 0px;
+    /* background-color: black;
+    color: white; */
+}
+
+
+/* #brand-pic {
+    /* float: right; */
+    /* width: 50vw; */
+    /* aspect-ratio: 3/2; */
+    /* margin: 5px 0px 5px 5px; */
+/* } */ 
+
+#brand-logo {
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    right: 579px;
+    top: 408px;
+}
+/* #hide1{
+    background-color: rgb(37, 82, 165);
+    color: rgb(37, 82, 165);
+    position: absolute;
+    left: 752px;
+    top: 412px;
+    height: 82px;
+    width: 182px;
+}
+#hide2{
+    background-color: rgb(37, 82, 165);
+    color: rgb(37, 82, 165);
+    position: absolute;
+    left: 547px;
+    top: 496px;
+    height: 88px;
+    width: 362px;
+} */
+
+#brand-item {
+    margin: auto;
+
+}
+#brand h1 {
+    font-size: 120px;
+    padding-bottom: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#intro, #model{
+    background-color: black;
+    color: white;
+} */
+/* #intro{
+    /* background: url(intro-bg.jpg) no-repeat; */
+    /* background-size: cover;
+    background-position: center; */
+    /* margin: 0px 50px 0px 50px; */
+
+
+.figures{
+    display: flex;
+    /* padding: 0; */
+    /* margin: 0; */
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.figures img{
+    width: 60%;
+    height: 60%;
+
+}
+#intro-des{
+    background-color: rgb(255, 235, 56, 0.2);
+    padding:20px 75px;
+    margin: 0px 200px;
+    box-shadow: #ffffff 50px 50px 50px inset, white -50px -50px 50px inset;
+}
+#intro-des h1{
+
+        font-family: "Aboreto", system-ui;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 60px;
+
+      
+    }
+    .headings{
+        font-size: 40px;
+    }
+#intro-des p{
+    padding-top: 10px;
+    font-size: 25px;
+    border-radius: 25px;
+    font-family: "Akaya Kanadaka", system-ui;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#model {
+    text-align: center;
+    /* background-color: brown; */
+    padding: 50px 0px 150px 0px;
+    /* margin: 50px 0px 120px 0px; */
+    /* background: url(model-bg.jpg) no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* margin: 0px 50px 0px 50px; */
+}
+
+
+#model h1 {
+    padding-bottom: 50px;
+
+        font-family: "Acme", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 75px;
+      
+}
+.submit{
+    position: absolute;
+    left: 864px;
+    top: 2860px;
+}
+.file-input {
+    opacity: 0;
+    position: absolute;
+    /* z-index: -1; */
+}
+.load{
+    position: absolute;
+    left: 830px;
+    top: 2770px;
+    
+}
+
+.upload {
+    font-family: inherit;
+    font-size: 18px;
+    background: linear-gradient(to bottom, #4dc7d9 0%,#66a6ff 100%);
+    color: white;
+    padding: 0.8em 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+  }
+  
+  .upload:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .upload:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .upload span {
+    display: block;
+    margin-left: 0.4em;
+    transition: all 0.3s;
+  }
+  
+  .upload svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+    transition: all 0.3s;
+  }
+  
+  .upload .svg-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 0.5em;
+    transition: all 0.3s;
+  }
+  
+  .upload:hover .svg-wrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .upload:hover svg {
+    transform: rotate(45deg);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    padding: 30px 30px 0px 30px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/* footer h1 {
+    font-size: 40px;
+    
+        font-family: "Allerta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+} */
+
+#member {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+}
+.pp{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+#pp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    margin-bottom: 15px;
+}
+.members{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* footer h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+} */
+
+.members {
+    padding-bottom: 5px;
+    /* text-align: justify; */
+}
+
+#copyright {
+    text-align: center;
+    font-weight: bold;
+}
