@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <title>Image Caption Generator</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Acme&family=Akaya+Kanadaka&family=Allan:wght@400;700&family=Allerta&family=Briem+Hand:wght@100..900&family=Honk&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='predicted_caption.css') }}">
+</head>
+
+<body>
+
+  <nav>
+    <img src="{{url_for('static', filename='clg.png')}}" alt="College-Logo">
+    <div id="headline">
+      <marquee behavior="scroll" direction="left" scrollamount="12" id="marquee-line" onmouseover="this.stop();"
+        onmouseout="this.start();">
+        ADGIPS Final Year Major Project, Image Caption Generator, by G-106, including memebers Aditya
+        Bora, Devesh Thakur, Devyank Nagpal and Gyanvendra Sharma under mentorship of Mrs. Nidhi Ruhil and
+        supervision of Mr. Rakesh Kumar Arora and HOD Dr. Saurabh Gupta</marquee>
+    </div>
+  </nav>
+
+
+
+  
+  	<div id="model">
+		<h1>Predicted Caption</h1>
+		<img src="{{url_for('static', filename='file.jpg')}}" alt="Uploaded Image">
+		<p id="caption">Caption: {{ data }}</p>
+    	<button><a href="/">Go Back</a></button>
+</div>
+
+
+<footer>
+    <div id="memmat">
+      <div id="member">
+        <div id="pp"><img src="{{url_for('static', filename='pp3.jpg')}}" alt="PRofile 1" class="pp">
+          <p class="members">Aditya Bora<br>(00515602720, 8th &thinsp;Sem, B.TECH CSE)<br>Led the development of the
+            model and designed the implementation of user interface</p>
+        </div>
+        <div id="pp"><img src="{{url_for('static', filename='pp4.jpg')}}" alt="PRofile 1" class="pp">
+          <p class="members">Devesh Thakur<br>(04315602720, 8th &thinsp;Sem, B.TECH CSE)<br> Trained the model and
+            focused on accuracy of the prediction of the caption of model</p>
+        </div>
+        <div id="pp"><img src="{{url_for('static', filename='pp2.jpg')}}" alt="PRofile 1" class="pp">
+          <p class="members">Devyank Nagpal<br>(04415602720, 8th &thinsp;Sem, B.TECH CSE)<br>Provided valuable insights
+            through data analysis, and guiding key project decisions</p>
+        </div>
+        <div id="pp"><img src="{{url_for('static', filename='pp1.jpg')}}" alt="PRofile 1" class="pp">
+          <p class="members">Gyanvendra Sharma<br>(04815602720, 8th &thinsp;Sem, B.TECH CSE)<br>Managed project
+            communication and documentation, keeping everyone informed
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <p id="copyright">© 2020-2024 Image Caption Generator. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
