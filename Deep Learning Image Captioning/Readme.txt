@@ -1,0 +1,1 @@
+The project needs high processing computer for training the models so the results is still not as accurate as predicted by online models. If the user needs more accurate, try to train the model of in Kaggle, using tensorflow and flikr data of more than 32k datasets
